@@ -77,7 +77,6 @@ const News: FC<Props> = ({
       data={newsData}
       renderItem={renderPost}
       ListEmptyComponent={renderEmptyHorizontalList}
-      scrollEnabled={newsData.length}
       showsVerticalScrollIndicator={false}
       contentContainerStyle={basicStyles.container}
       windowSize={7}

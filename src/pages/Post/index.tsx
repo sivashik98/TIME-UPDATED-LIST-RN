@@ -36,7 +36,7 @@ const Post: FC<Props> = ({ post, isFetchingPost, isRefreshing, onRefresh }) => {
               onRefresh={handleRefresh}
             />
           }
-          showsVerticalScrollIndicator={0}>
+          showsVerticalScrollIndicator={false}>
           <View style={commonStyles.rowCenterStart}>
             <StyledText bold fontSize={24}>
               id:
